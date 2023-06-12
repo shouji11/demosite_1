@@ -1,0 +1,38 @@
+
+
+.wave{
+    position:relative;
+    height:200px;/*何も表示されない場合は各波の親要素に高さを持たせましょう。*/
+}
+canvas{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+main{
+    height: auto;
+    width: 100%;
+    transform:translate(0,-80px);
+
+}
+.bgImg{
+    position: fixed;
+    left: 20%;
+    top: 70%;
+    height: 700px;
+    width: 700px;
+    transform:translate(0,-130px);
+}
+
+#date{
+    position:relative;
+    top: 0;
+    left: 20%;
+    color: white;
+    transform:translate(245px,285px);    
+    font-size: 70px;
+
+}
+
+
